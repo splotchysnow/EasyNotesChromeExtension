@@ -1,39 +1,31 @@
 <!DOCTYPE html>
-<html lang="EN" xml:lang="en">
+<html lang="en">
   <head>
-    <title>placeholder</title>
-    <link rel="stylesheet" href="button.css">
-    
+    <title>EasyNotes</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        width: 400px; /* Define a fixed width */
+        height: 500px; /* Define a fixed height */
+      }
+    </style>
   </head>
   <body>
-
     <h1>EasyNotes</h1>
-
-    <input id ="title_input" name = "title_" placeholder="Enter New Title" 
-    spellcheck="true" autocomplete="on" autocorrect="on" autocapitalize="on" type="text" value = ''></input>
-
-    
-    <!-- declaring the text area to put text in the plugin. -->
-    <textarea id ="notes_input" name = "note_pad" rows = "10" cols = "50" placeholder="Enter Notes Here!" 
-    spellcheck="true" autocomplete="on" autocorrect="on" autocapitalize="on" type="text" value = ''></textarea>    
-    
-    <!-- Created the buttons -->
-    <div class = "save-button-Group"> 
-      <button id="save1" type = "button" class="button"> Save1 </button>
-      <button type = "button" id = "save2" class="button"> Save2 </button>
-      <button type = "button" id = "save3" class="button"> Save3 </button>
+    <input id="title_input" name="title_" placeholder="Enter New Title">
+    <textarea id="notes_input" name="note_pad" rows="10" placeholder="Enter Notes Here!"></textarea>
+    <div class="save-button-Group"> 
+      <button id="save1" type="button">Save 1</button>
+      <button id="save2" type="button">Save 2</button>
+      <button id="save3" type="button">Save 3</button>
     </div>
-    
-    <div class = "load-button-Group">
-      <button type = "button" id = "load1" class="button"> Load1 </button>
-      <button type = "button" id = "load2" class="button"> Load2 </button>
-      <button type = "button" id = "load3" class="button"> Load3 </button>
+    <div class="load-button-Group">
+      <button id="load1" type="button">Load 1</button>
+      <button id="load2" type="button">Load 2</button>
+      <button id="load3" type="button">Load 3</button>
     </div>
-      <a href="options.html" target="_blank">
-        User Manual Here!
-      </a>
+    <a href="options.html" target="_blank">User Manual Here!</a>
     <script src="popup.js"></script>
-
-    <!-- end of buttons -->
   </body>
 </html>

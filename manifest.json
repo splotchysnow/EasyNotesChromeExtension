@@ -1,7 +1,7 @@
 {
   "name": "EasyNotes",
   "description": "Allows user to put down information in a quick and safe location. Enhance their Google Chrome Browser experience.",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
